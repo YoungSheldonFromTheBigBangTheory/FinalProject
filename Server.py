@@ -44,7 +44,7 @@ Address = ("localhost",5000)
 Server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 Server.bind(Address)
 
-Server.listen(10) # Max Clients
+Server.listen(4) # Max Clients
 
 
 print("Listening on", Address)
