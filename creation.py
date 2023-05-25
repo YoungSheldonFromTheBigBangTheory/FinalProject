@@ -3,7 +3,7 @@ import math, json, random
 hexData = []
 
 for i in range(19):
-    hexData.append(random.randint(1,3))
+    hexData.append(random.randint(1,4))
 
 #hexType = str(input("Input Correct Answer: "))
 
